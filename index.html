@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--CSS para pagina-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--Importando o icones do bootstap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <title>Criando perfil do insta</title>
+  </head>
+  <body>
+
+    <header>
+        <nav class="navbar navbar-light nav-top">
+            <div class="container-fluid nav-container">
+                <a class="navbar-brand" href="" target="_blank"></a>
+                    <!--Esse "img" é a logo do insta-->
+                    <img src="" alt="" style="max-width: 130px; max-height: 80px;">
+                    <!--Form para cria a barra de pesquisa-->
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                </form>
+                <div style="width: 30%;">
+                    <!-- "i" = Icones do bootstrap, te como colocar outros-->
+                    <i class="bi bi-house-door icons"></i>
+                    <i class="bi bi-inbox icons"></i>
+                    <i class="bi bi-compass icons"></i>
+                    <i class="bi bi-heart icons"></i>
+                    <img class="img-nav" src="">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="container">
+            <!--"row" significa colunas-->
+            <div class="row">
+                <!--nessa class, eu to passando os valores e o tamanho dos grid.
+                "col-o" definido que uma grid nao vai ter valor nenhum.
+                "col-md-02" o "md" definir o tamanho da tela, quando a tela for => 768px el vai ter a divisao, nesse caso foi passao o 2.
+                -->
+                    <div class="col-0 col-md-2"></div>
+                    <div class="col-12 col-md-8">
+                        <div class="container">
+                            <div class="row" style="padding-top: 20px">
+                                <div class="col-3">
+                                    <img class="img-profile" src="imagem/Batman_funny.jpg">
+                                </div>
+                                <div class="col-7"></div>
+                                
+                                <div class="col-2"></div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-0 col-md-2"></div>
+            </div>
+        </div>
+    </section>
+
+    
+  </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</html>
